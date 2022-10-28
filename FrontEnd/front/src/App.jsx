@@ -6,6 +6,7 @@ import { Route, Router, Routes } from 'react-router-dom'
 import { HomeTendero } from './components/HomeTendero/HomeTendero';
 import { ListaVenta } from './components/ListaVenta/ListaVenta';
 import { ButtonExit } from './components/Icons/ButtonExit';
+import { Home } from './components/HomeTendero/Home';
 
 function App() {
   return (
@@ -16,8 +17,7 @@ function App() {
 
       </div>
       <div className='Container_Body'>
-        
-        <ButtonExit />
+        <Home/>
       </div>
     </>
   );
