@@ -1,0 +1,42 @@
+.image_producto{
+    width: 190px;
+}
+
+.image_ventas{
+    width: 190px;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    margin-top: 85px;
+    justify-content: space-around;
+}
+
+
+.container_products{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container_sell{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.button_products{
+    font-family: 'Inter', sans-serif;
+    width: 80px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 5px 0px;
+}
+.button_ventas{
+    font-family: 'Inter', sans-serif;
+    width: 95px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 5px 0px;
+}
