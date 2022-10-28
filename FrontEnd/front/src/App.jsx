@@ -1,24 +1,22 @@
 
 import './App.css';
-import { Inicio } from './components/Inicio/Inicio.jsx';
 import { Header } from './components/Header/Header';
-import { Route, Router, Routes } from 'react-router-dom'
-import { HomeTendero } from './components/HomeTendero/HomeTendero';
-import { ListaVenta } from './components/ListaVenta/ListaVenta';
-import { ButtonExit } from './components/Icons/ButtonExit';
+import {BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import {HomeTendero} from './components/HomeTendero/HomeTendero';
 
 function App() {
   return (
     <>
+    <Router>
       <div className='header_container'>
-
         <Header titulo={'MI AMIGO DEL BARRIO'} />
-
       </div>
       <div className='Container_Body'>
-        
-        <ButtonExit />
+        <Routes>
+          <Route path='/hometendero' element={<HomeTendero />}/>
+        </Routes>
       </div>
+      </Router>
     </>
   );
 }
