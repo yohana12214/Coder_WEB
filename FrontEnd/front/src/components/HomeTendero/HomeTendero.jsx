@@ -13,7 +13,7 @@ export const HomeTendero = () => {
             </div>
             <div className='container_sell'>
                 <img className='image_ventas' src={Stonks}></img>
-                <button className='button_ventas' onclick="chekedservicio(<Inventario/>)" class="category-item d-block hover-y">Ventas</button>
+                <button className='button_ventas'> </button>
             </div>
         </div>
     )
