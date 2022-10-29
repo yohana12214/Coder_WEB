@@ -1,11 +1,8 @@
 import React from 'react'
-import '../ListaVenta/ListaVenta.css'
 
-
-
-export const ListaVenta = () => {
-    return (
-        <div className='container'>
+export const Inventario = () => {
+  return (
+    <div className='container'>
             <div className='container_list'>
                 <table>
                     <tr>
@@ -13,6 +10,7 @@ export const ListaVenta = () => {
                         <td><strong>Precio</strong></td>
                         <td><strong>Cantidad Vendida</strong></td>
                         <td><strong>Total Vendido</strong></td>
+                        <td><strong>Stock</strong></td>
                     </tr>
 
                     <tr>
@@ -20,6 +18,7 @@ export const ListaVenta = () => {
                         <td>2.000</td>
                         <td>16</td>
                         <td>10.000</td>
+                        <td>200</td>
                     </tr>
                 </table>
 
@@ -30,5 +29,5 @@ export const ListaVenta = () => {
 
             </div>
         </div>
-    )
+  )
 }
