@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import '../Inventario/Inventario.css'
+import 'boxicons';
 
 export const Inventario = () => {
   return (
@@ -25,7 +26,6 @@ export const Inventario = () => {
             </div>
             <div className='container_button'>
                 <Link to={'/'}><box-icon name='exit'></box-icon></Link>
-                
                 <Link to={'/hometendero'}><box-icon name='arrow-back' ></box-icon></Link>
             </div>
             <div className='container_barra'>

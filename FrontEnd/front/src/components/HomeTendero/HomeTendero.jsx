@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Canasta from '../Image/Canasta.png';
 import Stonks from '../Image/Stonks.png';
-import '../HomeTendero/HomeTendero.css';
+import '../HomeTendero/HomeTendero.css'
 
 export const HomeTendero = () => {
     return (
@@ -13,7 +13,7 @@ export const HomeTendero = () => {
             </div>
             <div className='container_sell'>
                 <img className='image_ventas' src={Stonks}></img>
-                <Link to='/listaventas'>   <button className='button_ventas'>Ventas</button></Link>
+                <Link to='/listaventas'><button className='button_ventas'>Ventas</button></Link>
             </div>
         </div>
     )

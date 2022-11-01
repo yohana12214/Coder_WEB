@@ -1,5 +1,7 @@
 import React from 'react'
-import '../ListaVenta/ListaVenta.css'
+import { Link } from 'react-router-dom';
+import '../ListaVenta/ListaVenta.css';
+import 'boxicons';
 
 
 
@@ -25,8 +27,8 @@ export const ListaVenta = () => {
 
             </div>
             <div className='container_button'>
-                <button className='button_products'>Productos</button>
-                <button className='button_ventas'>Ventas</button>
+                <Link to={'/hometendero'}><box-icon name='arrow-back' ></box-icon></Link>
+                <Link to={'/'}><box-icon name='exit'></box-icon></Link>
 
             </div>
         </div>
