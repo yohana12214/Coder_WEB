@@ -29,7 +29,7 @@ function App() {
           <Route path='/homecliente' element={<HomeCliente/>}/>
           <Route path='/logincliente' element={<LoginCliente/>}/>
           <Route path='/crearusuario' element={<CrearUsuario/>}/>
-          <Route path='/index' element={<Inicio/>}/>
+          <Route path='/' element={<Inicio/>}/>
         </Routes>
       </div>  
       </Router>

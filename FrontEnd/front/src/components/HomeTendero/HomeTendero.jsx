@@ -6,14 +6,14 @@ import '../HomeTendero/HomeTendero.css'
 
 export const HomeTendero = () => {
     return (
-        <div className='container'>
-            <div className='container_products'>
-                <img className='image_producto' src={Canasta}></img>
-                <Link to='/inventario'><button className='button_products'>Productos</button></Link>
+        <div className='containerht'>
+            <div className='container_productsht'>
+                <img className='image_productoht' src={Canasta}></img>
+                <Link to='/inventario'><button className='button_productsht'>Productos</button></Link>
             </div>
-            <div className='container_sell'>
-                <img className='image_ventas' src={Stonks}></img>
-                <Link to='/listaventas'><button className='button_ventas'>Ventas</button></Link>
+            <div className='container_sellht'>
+                <img className='image_ventasht' src={Stonks}></img>
+                <Link to='/listaventas'><button className='button_ventasht'>Ventas</button></Link>
             </div>
         </div>
     )
