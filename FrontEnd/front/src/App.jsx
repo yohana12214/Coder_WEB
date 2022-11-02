@@ -11,6 +11,12 @@ import {LoginCliente} from './components/LoginCliente/LoginCliente';
 import { CrearUsuario } from './components/CrearUsuario/CrearUsuario';
 import {Inicio} from './components/Inicio/Inicio';
 import {HomeTendero} from './components/HomeTendero/HomeTendero';
+import { AgregarProductos } from './components/AgregarProductos/AgregarProductos';
+import { CrearTendero } from './components/CrearTendero/CrearTendero';
+import { CrearIngresar } from './components/CrearIngresar/CrearIngresar';
+import { IngresarTendero } from './components/IngresarTendero/IngresarTendero';
+import { CrearIngresarClinete } from './components/CrearingresarCliente/CrearIngresarCliente';
+
 
 function App() {
   return (
@@ -29,8 +35,14 @@ function App() {
           <Route path='/homecliente' element={<HomeCliente/>}/>
           <Route path='/logincliente' element={<LoginCliente/>}/>
           <Route path='/crearusuario' element={<CrearUsuario/>}/>
+          <Route path='/agregarproductos' element={<AgregarProductos/>}/>
+          <Route path='/creartendero' element={<CrearTendero/>}/>
+          <Route path='/crearingresartendero' element={<CrearIngresar/>}/>
+          <Route path='/ingresartendero' element={<IngresarTendero/>}/>
           <Route path='/' element={<Inicio/>}/>
+          <Route path='/cicliente' element={<CrearIngresarClinete/>}/>
         </Routes>
+
       </div>  
       </Router>
     </>
