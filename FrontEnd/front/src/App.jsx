@@ -11,6 +11,11 @@ import {LoginCliente} from './components/LoginCliente/LoginCliente';
 import { CrearUsuario } from './components/CrearUsuario/CrearUsuario';
 import {Inicio} from './components/Inicio/Inicio';
 import {HomeTendero} from './components/HomeTendero/HomeTendero';
+import { AgregarProductos } from './components/AgregarProductos/AgregarProductos';
+import { CrearTendero } from './components/CrearTendero/CrearTendero';
+import { CrearIngresar } from './components/CrearIngresar/CrearIngresar';
+import { IngresarTendero } from './components/IngresarTendero/IngresarTendero';
+
 
 function App() {
   return (
@@ -30,6 +35,10 @@ function App() {
           <Route path='/logincliente' element={<LoginCliente/>}/>
           <Route path='/crearusuario' element={<CrearUsuario/>}/>
           <Route path='/index' element={<Inicio/>}/>
+          <Route path='/agregarproductos' element={<AgregarProductos/>}/>
+          <Route path='/creartendero' element={<CrearTendero/>}/>
+          <Route path='/crearingresar' element={<CrearIngresar/>}/>
+          <Route path='/ingresartendero' element={<IngresarTendero/>}/>
         </Routes>
       </div>  
       </Router>

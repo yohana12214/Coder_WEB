@@ -14,11 +14,15 @@ export const Inicio = () => {
         <div className="container">
             <div className='container_products'>
                 <img className='image_producto' src={Tendero} alt="tendero" ></img>
-                <button className='button_products' > Tendero</button>
+                <Link to={'/crearingresar'}>
+                    <button className='button_products'>Ingresar</button>
+                </Link>
             </div>
             <div className='container_products'>
                 <img className='image_ventas' src={Clientes} alt="clientes"></img>
-                <button className='button_products'>Clientes</button>
+                <Link to={'/crearingresarcliente'}>
+                    <button className='button_products'>Clientes</button>
+                </Link>
             </div>
         </div>
     )
