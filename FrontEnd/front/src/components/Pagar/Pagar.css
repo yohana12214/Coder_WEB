@@ -1,49 +1,72 @@
-.container{
-    width: 70%;
+.container {
+    width: 100%;
     display: flex;
-    margin-top: 85px;
-    justify-content: space-around;
-}
-.pago_daviplata{
-    width: 150px;
+    flex-direction: column;
+    align-items: center;
 }
 
-.container_pagoDaviplata{
-    width: 300px;
+.container_pagos {
+    width: max-content;
     display: flex;
-    flex-direction: column;
-}
-.numero_daviplata{
-    font-family: 'Inter', sans-serif;
-    font-size: large;
-}
-.numero_Nequi{
-    font-family: 'Inter', sans-serif;
-    font-size: large;
-}
-.pago_nequi{
-    width: 150px;
 }
 
-.container_pagoNequi{
-    width: 300px;
+.container_pagoDaviplata {
+    width: 210px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.numero_daviplata {
+    font-size: 20px;
+    font-family: 'Jolly Lodger';
+    font-style: italic;
+}
+
+.container_pagoNequi {
+    width: 210px;
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
-.container_pagoNequi{
-    width: 300px;
+
+.numero_Nequi {
+    font-size: 20px;
+    font-family: 'Jolly Lodger';
+    font-style: italic;
+}
+
+.container_expliacion {
     display: flex;
-    flex-direction: column;
+    width: 50%;
+    padding: 1rem 0 1rem;
+    justify-content: center;
+    background-color: #371336 ;
 }
-.explicacionPago{
-    font-family: 'Inter', sans-serif;
-    font-size: large;
+
+.explicacionPago {
+    font-size: 20px;
+    font-family: 'Jolly Lodger', cursive;
+    text-align: center;
+    color: #fff;
+}
+
+.container_botones{
+    width: max-content;
+    flex-direction: column;
+    display: flex;
+    margin: 25px;
+    ;
 }
 
 .subir_comprobante{
     font-family: 'Inter', sans-serif;
-    width: 80px;
-    margin: auto;
+    width: 150px;
+    border-color: #371336;
+    background-color: #371336;
+    color: #fff;
     border-radius: 10px;
-    padding: 5px 15px;
+    padding: 5px 10px;
+    align-content: left;
 }

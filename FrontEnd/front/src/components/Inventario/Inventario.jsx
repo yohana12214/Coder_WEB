@@ -1,4 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import '../Inventario/Inventario.css'
+import 'boxicons';
 
 export const Inventario = () => {
   return (
@@ -12,7 +15,6 @@ export const Inventario = () => {
                         <td><strong>Total Vendido</strong></td>
                         <td><strong>Stock</strong></td>
                     </tr>
-
                     <tr>
                         <td>Tomate</td>
                         <td>2.000</td>
@@ -21,12 +23,15 @@ export const Inventario = () => {
                         <td>200</td>
                     </tr>
                 </table>
-
             </div>
             <div className='container_button'>
-                <button className='button_products'>Productos</button>
-                <button className='button_ventas'>Ventas</button>
-
+                <Link to={'/'}><box-icon name='exit'></box-icon></Link>
+                <Link to={'/hometendero'}><box-icon name='arrow-back' ></box-icon></Link>
+            </div>
+            <div className='container_barra'>
+                <div className='nombrecliente'>
+                    <text className='nombre'>Aca debe ir el nombre del cliente</text>
+                </div>
             </div>
         </div>
   )
