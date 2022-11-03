@@ -1,11 +1,16 @@
-.main_container{
+.main_container-ci{
     width: 100%;
     display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+
 
 }
 
-.container_btn{
+.container_btn-ci{
     display:flex;
     flex-direction: column;
-    gap:2rem;
+    justify-content: space-around;
+    
 }
+

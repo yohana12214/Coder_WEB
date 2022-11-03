@@ -5,7 +5,7 @@ export const IngresarTendero = () => {
   return (
     <div className='container'>
       <div className='container_login'>
-        <img className='TenderoLogin' src={TenderoLogin}></img>
+        <img className='TenderoLogin' src={TenderoLogin} alt="img"></img>
       </div>
       <div className='login'>
         <input type="text" placeholder='Correo' />
