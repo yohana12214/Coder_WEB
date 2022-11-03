@@ -1,5 +1,5 @@
 import React from 'react'
-import ClientesLogin from '../Image/ClientesLogin.png';
+import ClientesLogin from '../Image/Clientes.png';
 import '../CrearingresarCliente/CrearIngresarCliente.css';
 import { Link } from 'react-router-dom';
 
