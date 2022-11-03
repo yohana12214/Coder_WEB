@@ -2,6 +2,7 @@ import React from 'react'
 import TenderoLogin from '../Image/TenderoLogin.png';
 import "../CrearTendero/CrearTendero.css"
 
+
 export const CrearTendero = () => {
   return (
     <div className='container-ct'>
