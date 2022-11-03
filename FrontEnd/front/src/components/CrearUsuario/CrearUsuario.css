@@ -1,0 +1,28 @@
+.container-cu{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-cu{
+   
+    display:flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: space-around;  
+    align-items: center;
+
+}
+
+.login-cu > input{
+
+    font-size: x-large;
+}
+
+.login-cu > button{
+
+    font-size: x-large;
+    color: red;
+}
