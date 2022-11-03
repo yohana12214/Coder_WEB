@@ -9,7 +9,7 @@ export const CrearIngresarClinete = () => {
     <div className='container'>
     <div className='container_crear'>
         <div className='crear'>
-            <img className='Tendero' src={ClientesLogin}></img>
+            <img className='Tendero' src={ClientesLogin} alt="img"></img>
             <Link to={'/crearusuario'}>
                 <button className='button_products'>Crear Cuenta</button>
             </Link>
